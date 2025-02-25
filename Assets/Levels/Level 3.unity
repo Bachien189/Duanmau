@@ -31266,6 +31266,10 @@ PrefabInstance:
       propertyPath: m_BoundingShape2D
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4474487495914525243, guid: b6e293ff3fd84874d82cfdc2809f59d5, type: 3}
+      propertyPath: m_Name
+      value: Idle Camera
+      objectReference: {fileID: 0}
     - target: {fileID: 4474487496841172466, guid: b6e293ff3fd84874d82cfdc2809f59d5, type: 3}
       propertyPath: m_Follow
       value: 
@@ -31285,6 +31289,10 @@ PrefabInstance:
     - target: {fileID: 4474487496841172469, guid: b6e293ff3fd84874d82cfdc2809f59d5, type: 3}
       propertyPath: m_BoundingShape2D
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474487496841172471, guid: b6e293ff3fd84874d82cfdc2809f59d5, type: 3}
+      propertyPath: m_Name
+      value: Ladder Camera
       objectReference: {fileID: 0}
     - target: {fileID: 4474487496959589264, guid: b6e293ff3fd84874d82cfdc2809f59d5, type: 3}
       propertyPath: m_BoundingShape2D
@@ -31306,7 +31314,59 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.29748845
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 4474487496959589269, guid: b6e293ff3fd84874d82cfdc2809f59d5, type: 3}
+      propertyPath: m_Name
+      value: Run Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699023939608214335, guid: b6e293ff3fd84874d82cfdc2809f59d5, type: 3}
+      propertyPath: Target.TrackingTarget
+      value: 
+      objectReference: {fileID: 1320068049}
+    - target: {fileID: 6699023939608214335, guid: b6e293ff3fd84874d82cfdc2809f59d5, type: 3}
+      propertyPath: Target.CustomLookAtTarget
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6699023939608214335, guid: b6e293ff3fd84874d82cfdc2809f59d5, type: 3}
+      propertyPath: Lens.PhysicalProperties.SensorSize.x
+      value: 1.7784172
+      objectReference: {fileID: 0}
+    - target: {fileID: 6841667228617169254, guid: b6e293ff3fd84874d82cfdc2809f59d5, type: 3}
+      propertyPath: Target.TrackingTarget
+      value: 
+      objectReference: {fileID: 1320068049}
+    - target: {fileID: 6841667228617169254, guid: b6e293ff3fd84874d82cfdc2809f59d5, type: 3}
+      propertyPath: Target.CustomLookAtTarget
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6841667228617169254, guid: b6e293ff3fd84874d82cfdc2809f59d5, type: 3}
+      propertyPath: Lens.PhysicalProperties.SensorSize.x
+      value: 1.7784172
+      objectReference: {fileID: 0}
+    - target: {fileID: 8983079015399226003, guid: b6e293ff3fd84874d82cfdc2809f59d5, type: 3}
+      propertyPath: Target.TrackingTarget
+      value: 
+      objectReference: {fileID: 1320068049}
+    - target: {fileID: 8983079015399226003, guid: b6e293ff3fd84874d82cfdc2809f59d5, type: 3}
+      propertyPath: Target.CustomLookAtTarget
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8983079015399226003, guid: b6e293ff3fd84874d82cfdc2809f59d5, type: 3}
+      propertyPath: Lens.PhysicalProperties.SensorSize.x
+      value: 1.7784172
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4474487496959589266, guid: b6e293ff3fd84874d82cfdc2809f59d5, type: 3}
+    - {fileID: 4474487495914525238, guid: b6e293ff3fd84874d82cfdc2809f59d5, type: 3}
+    - {fileID: 4474487496841172466, guid: b6e293ff3fd84874d82cfdc2809f59d5, type: 3}
+    - {fileID: 5554051398449264898, guid: b6e293ff3fd84874d82cfdc2809f59d5, type: 3}
+    - {fileID: 3546953135224401038, guid: b6e293ff3fd84874d82cfdc2809f59d5, type: 3}
+    - {fileID: 5801340890440138962, guid: b6e293ff3fd84874d82cfdc2809f59d5, type: 3}
+    - {fileID: 7485228213692617358, guid: b6e293ff3fd84874d82cfdc2809f59d5, type: 3}
+    - {fileID: 589204396208396895, guid: b6e293ff3fd84874d82cfdc2809f59d5, type: 3}
+    - {fileID: 7942154956903890370, guid: b6e293ff3fd84874d82cfdc2809f59d5, type: 3}
+    - {fileID: 4474487496959589264, guid: b6e293ff3fd84874d82cfdc2809f59d5, type: 3}
+    - {fileID: 4474487495914525241, guid: b6e293ff3fd84874d82cfdc2809f59d5, type: 3}
+    - {fileID: 4474487496841172469, guid: b6e293ff3fd84874d82cfdc2809f59d5, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
